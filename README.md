@@ -6,20 +6,30 @@ Node.js instalado (para ejecutar programas en la terminal).
 
 ## Preparación
 
-Clonar el respositorio
+1. Ir al repositorio proporcionado y hacer un fork
+
+![Imagen de boton fork](/images/fork.png)
+
+2. Una vez creado el fork, verificar que te encuentras en tu repositorio, puedes verificarlo viendo que en la URL diga tu nombre de usuario y que salga tu imagen de perfil. 
+
+3. Ya que estas en tu fork copiar la URL de tipo ssh del botón verde code.
+
+![Imagen de donde copiar la URL](/images/url.png)
+
+4. Clonar el respositorio
 ```bash
 git clone sshurl
 ```
-Moverse al repositorio clonado
+5. Moverse al repositorio clonado
 ```bash
 cd nombreDelRepo
 ```
 
-Instalar las dependencias
+6. Instalar las dependencias
 ```bash
 npm install
 ```
-Abrir en vscode
+7. Abrir en vscode
 ```bash
 code .
 ```
